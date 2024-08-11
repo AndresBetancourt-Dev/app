@@ -8,6 +8,10 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        poppins: ["Poppins", "sans-serif "],
+        roboto: ["Roboto", "sans-serif "],
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
@@ -16,5 +20,6 @@ const config: Config = {
     },
   },
   plugins: [],
+  important: true,
 };
 export default config;
